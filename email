@@ -1,0 +1,11 @@
+::Cristiano L::
+#!/bin/bash
+cd /home/cristiano
+if [ -e /home/cristiano [ -e /home/cristiano/Script.sh ]; then
+echo "Script funcionando!" >> /home/cristiano/Script.sh
+else
+touch /home/cristiano/scripterro.txt
+fi
+/Script.sh ]; then
+
+SwithMail.exe /s /x "/home/cristiano/Envio_de_E-mails\settings.xml" /btxt "/home/cristiano:/Envio_de_E-mails/lista_emails.txt" /p1 "Sr.Cristiano" /enc "iso-8859-1"
