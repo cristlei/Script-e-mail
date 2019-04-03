@@ -1,11 +1,32 @@
-::Cristiano L::
-#!/bin/bash
-cd /home/cristiano
-if [ -e /home/cristiano [ -e /home/cristiano/Script.sh ]; then
-echo "Script funcionando!" >> /home/cristiano/Script.sh
-else
-touch /home/cristiano/scripterro.txt
-fi
-/Script.sh ]; then
-
-SwithMail.exe /s /x "/home/cristiano/Envio_de_E-mails\settings.xml" /btxt "/home/cristiano:/Envio_de_E-mails/lista_emails.txt" /p1 "Sr.Cristiano" /enc "iso-8859-1"
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SwithMailSettings>
+  <ServerSettings>
+    <FromName>Cristiano</FromName>
+    <FromAddress>seu-email@gmail.com</FromAddress>
+    <Username />
+    <Password>ghwr12345tr.</Password>
+    <ObscurePassword>False</ObscurePassword>
+    <MailServer>smtp.gmail.com</MailServer>
+    <MailServerPort>587</MailServerPort>
+    <SSL>True</SSL>
+    <Encoding />
+    <RequestReceipt>False</RequestReceipt>
+    <MessageID>False</MessageID>
+  </ServerSettings>
+  <EmailAddresses>
+    <To>e-mail-remetente@outlook.com</To>
+    <CC>e-mail-remetente@bol.com.br</CC>
+    <BCC />
+    <ReplyTo>seu-email@gmail.com</ReplyTo>
+  </EmailAddresses>
+  <Attachments>
+    <AttachmentPath />
+  </Attachments>
+  <EmailContent>
+    <HTML>False</HTML>
+    <DontReplaceNewLine>False</DontReplaceNewLine>
+    <Subject />
+    <Body />
+    <BodyTxtFile />
+  </EmailContent>
+</SwithMailSettings>
